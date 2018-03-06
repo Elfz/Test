@@ -19,7 +19,6 @@ namespace world
                     Console.WriteLine("Opção inválida!");
                     continue;
                 }
-
                 switch(option){
                     case 1:
                         friend = ReadFriend();
@@ -46,9 +45,7 @@ namespace world
                         Console.WriteLine("Opção inválida!");
                         break;
                 }
-	
         	}
-
         }
 
         static string Menu()
@@ -156,7 +153,6 @@ namespace world
                 Console.WriteLine(friend);               
             }
             Console.WriteLine("===============================");
-            
         }
     }
 }

@@ -4,8 +4,7 @@ namespace world
 {
     class Friend
     {
-        
-		public string name { get; }
+        public string name { get; }
         public double latitude { get; }
         public double longitude { get; }
 
@@ -15,7 +14,6 @@ namespace world
         	this.latitude = latitude;
         	this.longitude = longitude;
         }
-
 
         public override string ToString()
         {
