@@ -10,9 +10,9 @@ namespace world
 
         public Friend(string name, double latitude, double longitude)  
         {
-        	this.name = name;
-        	this.latitude = latitude;
-        	this.longitude = longitude;
+            this.name = name;
+            this.latitude = latitude;
+            this.longitude = longitude;
         }
 
         public override string ToString()
